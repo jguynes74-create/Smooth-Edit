@@ -1,0 +1,33 @@
+# Node & OS junk
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+.DS_Store
+
+# Env files (keep only template)
+*.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+
+# Platform / tooling artifacts
+.vercel/
+.render/
+.aws/
+.ebextensions/*.bak
+
+# Replit & workspace junk
+.replit
+replit.md
+.upm/
+.local/
+.config/
+.attached_assets/
+attached_assets/
+
+# Migrations/tooling caches
+migrations/.cache
