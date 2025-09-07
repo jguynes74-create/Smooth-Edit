@@ -42,7 +42,7 @@ export default function Auth() {
         <div className="text-center mb-8">
           <div className="flex justify-center mb-1">
             <img 
-              src={logoImage} 
+              src="/images/auth-hero.png" 
               alt="SmoothEDIT Logo" 
               className="h-24 sm:h-32 md:h-40 w-auto drop-shadow-xl"
             />
